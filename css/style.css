@@ -1,5 +1,32 @@
 *{
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+}
+
+.top-nav {
+	background: #380036;
+	color: #9AD1D4;
+	text-decoration: none;
+
+}
+.brand-link {
+	color: #9AD1D4;
+	text-decoration: none;
+}
+.navbar {
+	display: flex;
+	font-size: 30px;
+	padding: 5px 20px;
+
+}
+
+.nav-toggle {
+	margin-left: auto;
+}
+
+.nav-list {
+	color: #9AD1D4;
+	text-decoration: none;
+}
+.nav-list-collapsed {
+	display: none;
 }
